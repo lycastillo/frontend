@@ -1,6 +1,6 @@
-// src/components/WelcomeScreen.js
+
 import React, { useState } from 'react';
-import './WelcomeScreen.css'; // Import the CSS file for other styles
+import './WelcomeScreen.css'; 
 
 const WelcomeScreen = () => {
   const [name, setName] = useState('');
@@ -17,7 +17,7 @@ const WelcomeScreen = () => {
     <div
       className="welcome-screen"
       style={{
-        backgroundImage: `url('/bg.jpg')`, // Inline style for background image
+        backgroundImage: `url('/bg.jpg')`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',
