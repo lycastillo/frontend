@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import './WelcomeScreen.css'; 
+import './WelcomeScreen.css';
 
-const WelcomeScreen = () => {
+const WelcomeScreen = ({ onContinue }) => {
   const [name, setName] = useState('');
 
   const handleChange = (event) => {
@@ -10,7 +10,7 @@ const WelcomeScreen = () => {
   };
 
   const handleContinue = () => {
-    alert(`Welcome, ${name}!`);
+    onContinue(name); 
   };
 
   return (
