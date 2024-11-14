@@ -1,0 +1,45 @@
+
+.word-flash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .word-flash h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-container {
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #ffcc00;
+    transition: width 0.5s ease;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f4a261;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e76f51;
+  }
+  
